@@ -20,6 +20,7 @@ public class FirstServlet extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		System.out.println("firstServlet....................");
+		//this is a git test
 		
 //        RequestDispatcher rd=req.getRequestDispatcher("/second");  
 //        rd.forward(req, resp);  
